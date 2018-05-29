@@ -1,0 +1,6 @@
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_SumOfPrimesBelow2Million_10\bin\Debug\Euler_SumOfPrimesBelow2Million_10.exe.config
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_SumOfPrimesBelow2Million_10\bin\Debug\Euler_SumOfPrimesBelow2Million_10.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_SumOfPrimesBelow2Million_10\bin\Debug\Euler_SumOfPrimesBelow2Million_10.pdb
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_SumOfPrimesBelow2Million_10\obj\Debug\Euler_SumOfPrimesBelow2Million_10.csproj.CoreCompileInputs.cache
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_SumOfPrimesBelow2Million_10\obj\Debug\Euler_SumOfPrimesBelow2Million_10.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_SumOfPrimesBelow2Million_10\obj\Debug\Euler_SumOfPrimesBelow2Million_10.pdb

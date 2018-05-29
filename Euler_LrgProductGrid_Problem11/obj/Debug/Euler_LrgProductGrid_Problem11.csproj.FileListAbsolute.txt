@@ -1,0 +1,7 @@
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_LrgProductGrid_Problem11\bin\Debug\Euler_LrgProductGrid_Problem11.exe.config
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_LrgProductGrid_Problem11\bin\Debug\Euler_LrgProductGrid_Problem11.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_LrgProductGrid_Problem11\bin\Debug\Euler_LrgProductGrid_Problem11.pdb
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_LrgProductGrid_Problem11\obj\Debug\Euler_LrgProductGrid_Problem11.csproj.CoreCompileInputs.cache
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_LrgProductGrid_Problem11\obj\Debug\Euler_LrgProductGrid_Problem11.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_LrgProductGrid_Problem11\obj\Debug\Euler_LrgProductGrid_Problem11.pdb
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler_LrgProductGrid_Problem11\obj\Debug\Euler_LrgProductGrid_Problem11.csprojResolveAssemblyReference.cache
