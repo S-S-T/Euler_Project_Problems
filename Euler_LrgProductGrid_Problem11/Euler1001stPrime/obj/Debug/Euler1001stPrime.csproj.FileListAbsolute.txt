@@ -1,0 +1,7 @@
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler1001stPrime\bin\Debug\Euler1001stPrime.exe.config
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler1001stPrime\bin\Debug\Euler1001stPrime.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler1001stPrime\bin\Debug\Euler1001stPrime.pdb
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler1001stPrime\obj\Debug\Euler1001stPrime.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler1001stPrime\obj\Debug\Euler1001stPrime.pdb
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler1001stPrime\obj\Debug\Euler1001stPrime.csprojResolveAssemblyReference.cache
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\Euler1001stPrime\obj\Debug\Euler1001stPrime.csproj.CoreCompileInputs.cache

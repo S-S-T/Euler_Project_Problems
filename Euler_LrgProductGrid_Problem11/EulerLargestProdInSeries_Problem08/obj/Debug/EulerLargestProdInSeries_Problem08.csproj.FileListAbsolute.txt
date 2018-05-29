@@ -1,0 +1,7 @@
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerLargestProdInSeries_Problem08\bin\Debug\EulerLargestProdInSeries_Problem08.exe.config
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerLargestProdInSeries_Problem08\bin\Debug\EulerLargestProdInSeries_Problem08.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerLargestProdInSeries_Problem08\bin\Debug\EulerLargestProdInSeries_Problem08.pdb
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerLargestProdInSeries_Problem08\obj\Debug\EulerLargestProdInSeries_Problem08.csprojResolveAssemblyReference.cache
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerLargestProdInSeries_Problem08\obj\Debug\EulerLargestProdInSeries_Problem08.csproj.CoreCompileInputs.cache
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerLargestProdInSeries_Problem08\obj\Debug\EulerLargestProdInSeries_Problem08.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerLargestProdInSeries_Problem08\obj\Debug\EulerLargestProdInSeries_Problem08.pdb

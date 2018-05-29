@@ -1,0 +1,7 @@
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerPalindromes\bin\Debug\EulerPalindromes.exe.config
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerPalindromes\bin\Debug\EulerPalindromes.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerPalindromes\bin\Debug\EulerPalindromes.pdb
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerPalindromes\obj\Debug\EulerPalindromes.csprojResolveAssemblyReference.cache
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerPalindromes\obj\Debug\EulerPalindromes.csproj.CoreCompileInputs.cache
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerPalindromes\obj\Debug\EulerPalindromes.exe
+C:\Users\SST\Documents\Visual Studio 2017\Projects\EulerProblems\EulerPalindromes\obj\Debug\EulerPalindromes.pdb
