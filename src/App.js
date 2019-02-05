@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {TodoForm, TodoList} from './components/todo'
+import {addTodo, guidID} from './lib/todoHelpers'
 
 class App extends Component {
   constructor() {
@@ -9,24 +10,47 @@ class App extends Component {
     this.state = {
       // contains whatever we need-- a todos prop
       todos: [
-        {id: 1, name: 'Learn', isComplete: true},
-        {id: 2, name: 'Build an Awesome App', isComplete: false},
-        {id: 3, name: 'Ship It!', isComplete: false}
+        {id: guidID(), name: 'Learn JSX', isComplete: true},
+        {id: guidID(), name: 'Build an Awesome App', isComplete: false},
+        {id: guidID(), name: 'Ship It!', isComplete: false}
       ],
       currentTodo: ''
     }
-    // passes in 'this' context and refs the new event handler
+    // HandleInputChange is one of the built-in event/functions for React native.. Passes in 'this' context and refs the new event handler
     this.handleInputChange = this.handleInputChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
+    this.handleEmptySubmit = this.handleEmptySubmit.bind(this)
   }
 
+  handleSubmit(evt) {
+      evt.preventDefault()
+      const newId = guidID()
+      const newTodo = {id: newId, name: this.state.currentTodo, isComplete: false} // single addtition
+      const updatedTodos = addTodo(this.state.todos, newTodo) // both the list and the new item
+      this.setState({
+        todos: updatedTodos,
+        currentTodo: '',
+        errorMessage: ''
+      })
+  }
 
-  // use SET_STATE here, not just 'state' this gives it fluidity, add an OnChange to this input..
+  // do not allow empty values to be put in to the list. Add validation
+  handleEmptySubmit(evt) {
+    evt.preventDefault()
+    this.setState({
+      errorMessage: 'Please supply a Todo Name'
+    })
+  }
+
+  // Use SET_STATE here, not just 'state' this gives it fluidity, add an OnChange to this input..
+  // SST Notes: Here in the App.js we are not stateless, however, other files may be stateless and therefore was pass the 'state' in "props" and use 'setState'
   handleInputChange(evt) {
     this.setState({
       currentTodo: evt.target.value
     }) 
   }
   render() {
+    const submitHandler = this.state.currentTodo ? this.handleSubmit : this.handleEmptySubmit;
     return (
       <div className="App">
         <header className="App-header">
@@ -37,9 +61,12 @@ class App extends Component {
           <h2>REACT TODOS</h2>        
         </header>
         <div className="Todo-App">
+        {/* this is way cool, did you know if the condition before the && is True, what follows goes ON! */}
+        {this.state.errorMessage && <span className='error'>{this.state.errorMessage}</span>}
         <TodoForm handleInputChange={this.handleInputChange} 
-          currentTodo={this.state.currentTodo} />
-        <TodoList todos={this.state.todos}/>
+          currentTodo={this.state.currentTodo}
+          handleSubmit={submitHandler} />
+        <TodoList todos={this.state.todos} />
         </div>
       </div>
     );
