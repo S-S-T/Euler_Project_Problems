@@ -5,24 +5,26 @@ import {TodoForm, TodoList} from './components/todo'
 import {addTodo, guidID} from './lib/todoHelpers'
 
 class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-      // contains whatever we need-- a todos prop
-      todos: [
-        {id: guidID(), name: 'Learn JSX', isComplete: true},
-        {id: guidID(), name: 'Build an Awesome App', isComplete: false},
-        {id: guidID(), name: 'Ship It!', isComplete: false}
-      ],
-      currentTodo: ''
-    }
-    // HandleInputChange is one of the built-in event/functions for React native.. Passes in 'this' context and refs the new event handler
-    this.handleInputChange = this.handleInputChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
-    this.handleEmptySubmit = this.handleEmptySubmit.bind(this)
+  state = {
+    // contains whatever we need-- a todos prop
+    todos: [
+      {id: guidID(), name: 'Learn JSX', isComplete: true},
+      {id: guidID(), name: 'Build an Awesome App', isComplete: false},
+      {id: guidID(), name: 'Ship It!', isComplete: false}
+    ],
+    currentTodo: ''
   }
+  // You don't always have to use a constructor()/ super(), here we put the STATE above it and use it on it's OWN :) However, then you 
+  // need to change the syntax of the methods() below from just regular things like:  doThisOrThat() { obj } to the more vogue doThisOrThat = () => { obj } [w/ the FatArrow :)]
+  // constructor() {
+  //   super()
+    // // HandleInputChange is one of the built-in event/functions for React native.. Passes in 'this' context and refs the new event handler
+    // this.handleInputChange = this.handleInputChange.bind(this)
+    // this.handleSubmit = this.handleSubmit.bind(this)
+    // this.handleEmptySubmit = this.handleEmptySubmit.bind(this)
+  //}
 
-  handleSubmit(evt) {
+  handleSubmit = (evt) => {
       evt.preventDefault()
       const newId = guidID()
       const newTodo = {id: newId, name: this.state.currentTodo, isComplete: false} // single addtition
@@ -35,7 +37,7 @@ class App extends Component {
   }
 
   // do not allow empty values to be put in to the list. Add validation
-  handleEmptySubmit(evt) {
+  handleEmptySubmit = (evt) => {
     evt.preventDefault()
     this.setState({
       errorMessage: 'Please supply a Todo Name'
@@ -44,7 +46,7 @@ class App extends Component {
 
   // Use SET_STATE here, not just 'state' this gives it fluidity, add an OnChange to this input..
   // SST Notes: Here in the App.js we are not stateless, however, other files may be stateless and therefore was pass the 'state' in "props" and use 'setState'
-  handleInputChange(evt) {
+  handleInputChange = (evt) => {
     this.setState({
       currentTodo: evt.target.value
     }) 
