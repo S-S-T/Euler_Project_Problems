@@ -41,12 +41,15 @@ test.skip('findById should return the expected item from an array', () => {
     {id: 2, name: 'two', isComplete: false},
     {id: 3, name: 'three', isComplete: false}
   ]
+  // sets up a control array above, then sets a control item below; 
+  // then calls findById and passes ID and startTodos array[] to the helper.js def function()
+  // if compare === control, SUCCESS!
   const expected = {id:2, name: 'two', isComplete: false}
   const result = findById(2, startTodos)
   expect(result).toEqual(expected)
 })
 
-test('toggleTodo should toggle the isComplete prop of a todo', () => {
+test.skip('toggleTodo should toggle the isComplete prop of a todo', () => {
   const startTodo = {id:2, name: 'two', isComplete: false}
   const expected = {id:2, name: 'two', isComplete: true}
   const result = toggleTodo(startTodo)
