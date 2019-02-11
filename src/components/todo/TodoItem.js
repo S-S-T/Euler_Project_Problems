@@ -1,6 +1,7 @@
 import React from 'react'
 import {partial} from '../../lib/utils'
 import PropTypes from 'prop-types'
+import { Tapable } from 'tapable';
 
 export const TodoItem = (props) => {
     const handleToggle = partial(props.handleToggle, props.id)  // () => props.handleToggle(props.id)
@@ -18,3 +19,10 @@ export const TodoItem = (props) => {
     isComplete: PropTypes.bool,
     id: PropTypes.string.isRequired
     }
+
+
+    // hash Tapable
+    // Array
+    // linkedList
+    // Tree (orderd)  red/black
+    // balanced/ordered trees
