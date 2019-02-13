@@ -1,6 +1,10 @@
 // SST Test Page, first let's put it on GitHub
 // const add = (a, b) => a + b
 // const addThree = (a, b, c) => a + b + c
+<<<<<<< HEAD
+=======
+// INLINE FUNCTIONS
+>>>>>>> master
 // const inc = (num) => num + 1 // num goes up by one
 // const dbl = (num) => num * 2 // doubles the num
 // const arg0 = 2
